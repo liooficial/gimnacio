@@ -65,7 +65,7 @@ public class ENTRENAMIENTOS extends javax.swing.JFrame {
         setExtendedState(6);
         setUndecorated(true);
 
-        jPanel1.setBackground(new java.awt.Color(153, 204, 255));
+        jPanel1.setBackground(new java.awt.Color(204, 255, 255));
 
         registarn.setBackground(new java.awt.Color(204, 204, 255));
         registarn.setFont(new java.awt.Font("Tahoma", 0, 14)); // NOI18N
@@ -114,7 +114,7 @@ public class ENTRENAMIENTOS extends javax.swing.JFrame {
         jLabel2.setFont(new java.awt.Font("Tahoma", 2, 24)); // NOI18N
         jLabel2.setText("Horario");
 
-        jLabel3.setFont(new java.awt.Font("Sylfaen", 1, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Script MT Bold", 1, 36)); // NOI18N
         jLabel3.setText("Gimnacio LOS MEJORES");
 
         eliminar.setBackground(new java.awt.Color(204, 204, 255));
@@ -193,15 +193,12 @@ public class ENTRENAMIENTOS extends javax.swing.JFrame {
                             .addComponent(jTextField3, javax.swing.GroupLayout.DEFAULT_SIZE, 353, Short.MAX_VALUE)
                             .addComponent(jTextField2)
                             .addComponent(jTextField1))
-                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(130, 130, 130)
-                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                                    .addComponent(registarn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                                    .addComponent(modificar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)))
-                            .addGroup(jPanel1Layout.createSequentialGroup()
-                                .addGap(33, 33, 33)
-                                .addComponent(eliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                        .addGap(130, 130, 130)
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING)
+                            .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
+                                .addComponent(registarn, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                                .addComponent(modificar, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE))
+                            .addComponent(eliminar, javax.swing.GroupLayout.PREFERRED_SIZE, 129, javax.swing.GroupLayout.PREFERRED_SIZE)))
                     .addGroup(jPanel1Layout.createSequentialGroup()
                         .addGap(30, 30, 30)
                         .addComponent(jScrollPane1, javax.swing.GroupLayout.PREFERRED_SIZE, 914, javax.swing.GroupLayout.PREFERRED_SIZE)

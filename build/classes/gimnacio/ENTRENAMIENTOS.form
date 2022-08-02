@@ -38,7 +38,7 @@
     <Container class="javax.swing.JPanel" name="jPanel1">
       <Properties>
         <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
-          <Color blue="ff" green="cc" red="99" type="rgb"/>
+          <Color blue="ff" green="ff" red="cc" type="rgb"/>
         </Property>
       </Properties>
 
@@ -73,18 +73,13 @@
                               <Component id="jTextField2" max="32767" attributes="0"/>
                               <Component id="jTextField1" max="32767" attributes="0"/>
                           </Group>
-                          <Group type="103" groupAlignment="0" attributes="0">
-                              <Group type="102" attributes="0">
-                                  <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
-                                  <Group type="103" groupAlignment="0" max="-2" attributes="0">
-                                      <Component id="registarn" max="32767" attributes="0"/>
-                                      <Component id="modificar" alignment="0" max="32767" attributes="0"/>
-                                  </Group>
+                          <EmptySpace min="-2" pref="130" max="-2" attributes="0"/>
+                          <Group type="103" groupAlignment="1" attributes="0">
+                              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                                  <Component id="registarn" max="32767" attributes="0"/>
+                                  <Component id="modificar" alignment="0" max="32767" attributes="0"/>
                               </Group>
-                              <Group type="102" alignment="0" attributes="0">
-                                  <EmptySpace min="-2" pref="33" max="-2" attributes="0"/>
-                                  <Component id="eliminar" min="-2" pref="129" max="-2" attributes="0"/>
-                              </Group>
+                              <Component id="eliminar" min="-2" pref="129" max="-2" attributes="0"/>
                           </Group>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
@@ -259,7 +254,7 @@
         <Component class="javax.swing.JLabel" name="jLabel3">
           <Properties>
             <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-              <Font name="Sylfaen" size="36" style="1"/>
+              <Font name="Script MT Bold" size="36" style="1"/>
             </Property>
             <Property name="text" type="java.lang.String" value="Gimnacio LOS MEJORES"/>
           </Properties>

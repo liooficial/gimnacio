@@ -17,7 +17,7 @@ public class Conexion {
                 //"integratedSecurity=true";
         try {
             Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-            System.out.println("Driver funciona correctamente.");
+            //System.out.println("Driver funciona correctamente.");
         } catch (ClassNotFoundException e) {
             System.out.println("Error: " + e.getMessage());
         }
